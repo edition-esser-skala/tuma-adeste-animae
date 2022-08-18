@@ -1,0 +1,18 @@
+composer:
+  last: Tůma
+  first: František Ignác Antonín
+title: Adeste animæ
+subtitle: Motetto del Santissimo
+genre: motet
+scoring: S, A (solo), S, A, T, B (coro), cnto, fag, 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15715
+    date: 1741
+    url: https://data.onb.ac.at/rec/AC14297610
+    license: public domain
+    principal: true
+    notes: parts for S solo, A solo, S rip, A rip, T rip, B rip, cnto, fag, trb1, trb 2, vl 1, vl 2, vlc, vlne, org, and maestro di cappella
+imslp:
