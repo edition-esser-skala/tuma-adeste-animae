@@ -2,11 +2,18 @@
 
 #(define option-movement-title-format "title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
 
+markADCS = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup { \remark "Adeste da capo subito" }
+}
+
+
 tempoAdeste = \tempoMarkup "Larghetto"
+tempoDat = \tempoMarkup "Andante"
 
 
 \include "notes/cnto.ly"
